@@ -1,0 +1,4 @@
+claim,extracted_evidence_text,class
+"The Earth revolves around the Sun.","Scientific consensus and astronomical observations confirm that the Earth orbits the Sun once every 365 days.",SUPPORTS
+"Water boils at 50 degrees Celsius.","Water typically boils at 100 degrees Celsius at standard atmospheric pressure.",REFUTES
+"Vaccines cause autism.","Multiple large-scale scientific studies show no causal link between vaccines and autism.",REFUTES

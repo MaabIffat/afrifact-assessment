@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+multilingual-fc/
+m-fc/
+venv/
+
+# Outputs
+predictions*.csv
+
+# OS
+.DS_Store
