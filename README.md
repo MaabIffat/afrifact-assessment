@@ -20,11 +20,13 @@ cp .env.example .env
 
 RUN
 
+```bash
 python src/run_factcheck.py \
   --input_csv data.csv \
   --output_csv predictions.csv \
-  --language amharic \
-  --prompt_type extensive
+  --language english \
+  --prompt_type extensive \
+  --max_samples 5
 
 Output
 
@@ -51,9 +53,8 @@ This design supports:
 - Justification quality analysis
 - Zero-shot fact-checking
 
-You can easily extend to 10+ African languages by adding them in `language_config.py`.
+This can be extended to 10+ African languages by adding them in `language_config.py`.
 
-If you want next, I can:
 
 - Add **JSON structured output with schema validation**
 - Add **batch parallelization**
