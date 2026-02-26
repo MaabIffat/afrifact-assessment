@@ -28,6 +28,13 @@ python src/run_factcheck.py \
   --prompt_type extensive \
   --max_samples 5
 
+Prompt Variants
+
+--prompt_type extensive
+--prompt_type structured
+--prompt_type simple
+
+
 Output
 
 Original CSV columns are preserved.
