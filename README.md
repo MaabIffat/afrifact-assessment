@@ -56,10 +56,3 @@ This design supports:
 This can be extended to 10+ African languages by adding them in `language_config.py`.
 
 
-- Add **JSON structured output with schema validation**
-- Add **batch parallelization**
-- Add **confidence scoring**
-- Add **cost/token logging**
-- Add **HPC-friendly async batching**
-- Add **cross-lingual consistency evaluation module**
-
